@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(../fonts/FontsFree-Net-FontsFree-Net-Proxima-Nova-1.ttf);
+}
+
+@font-face {
+    font-family: 'Averta Demo PE Cutted Demo';
+    src: url(../fonts/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
+}

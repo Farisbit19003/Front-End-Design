@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'pn': ['Proxima Nova'],
+      'ad': ['Averta Demo PE Cutted Demo'],
+    },
   },
   plugins: [],
 }
