@@ -11,3 +11,11 @@
     font-family: 'Averta Demo PE Cutted Demo';
     src: url(../fonts/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
 }
+
+.h1 {
+    @apply text-[#000] font-ad justify-center font-semibold lg:text-[2.5rem] lg:leading-[3.125rem] text-2xl;
+  }
+
+  .p{
+    @apply text-[#565656] mt-4 font-ad
+  }

@@ -3,11 +3,11 @@ import React from 'react'
 const Button = () => {
   return (
     <>
-    <button className='bg-[#2639ED] absolute -mt-8 transition-transform hover:scale-95 text-lg w-1/2 text-[#fff] font-semibold font-ad flex justify-center text-center rounded-3xl p-3 '>
+      <button className="bg-[#2639ED] absolute -mt-40 transition-transform hover:scale-95 h-[3.25rem] w-[11.75rem] px-5  rounded-[3.75rem] text-[#fff] font-semibold font-ad  text-xl ">
         Contact Now
-    </button>
+      </button>
     </>
-  )
+  );
 }
 
 export default Button
