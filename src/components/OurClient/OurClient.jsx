@@ -12,19 +12,19 @@ const OurClient = () => {
           <div className="grid lg:grid-cols-4 grid-cols-2 gap-5 items-center justify-items-stretch p-5">
             <img
               className="h-[2.05rem] w-fit"
-              src="../public/images/Google Logo.svg"
+              src="../images/Google Logo.svg"
             />
             <img
               className="h-[2.05rem] w-fit"
-              src="../public/images/Airbnb Logo.svg"
+              src="../images/Airbnb Logo.svg"
             />
             <img
               className="h-[2.05rem] w-fit"
-              src="../public/images/Amazon Logo.svg"
+              src="../images/Amazon Logo.svg"
             />
             <img
               className="h-[2.05rem] w-fit"
-              src="../public/images/Uber Eats Logo.svg"
+              src="../images/Uber Eats Logo.svg"
             />
           </div>
         </div>
