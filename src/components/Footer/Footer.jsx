@@ -4,8 +4,8 @@ import { BsFacebook } from "react-icons/bs";
 const Footer = () => {
   return (
     <>
-    <div className="mx-auto border-t-2 w-11/12 border-[#E4E4E4] relative top-[72rem]"></div>
-      <div className="justify-around items-center flex lg:flex-row  flex-col relative top-[72rem] ">
+      <div className="mx-auto border-t-2 w-11/12 border-[#E4E4E4] "></div>
+      <div className="justify-around items-center flex lg:flex-row  flex-col  ">
         <div className="flex flex-col mt-10 lg:w-[18.875rem] w-full p-5 gap-5">
           <div className="flex flex-row gap-2">
             <span className="text-black text-xl font-pn font-bold">A+</span>
@@ -13,7 +13,7 @@ const Footer = () => {
               Studio
             </span>
           </div>
-          <div className="flex w-full text-neutral-600 text-sm font-normal leading-snug">
+          <div className="flex w-full p">
             Leading digital agency with solid design and development expertise.
             We build readymade websites, mobile applications, and elaborate
             online business services.
@@ -62,8 +62,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-       <div className="mx-auto border-t-2 w-11/12 border-[#E4E4E4] relative top-[72rem]"></div>
-      <div className="flex justify-center items-center relative top-[74rem] my-5 text-neutral-400 text-sm font-normal leading-snug">
+      <div className="mx-auto border-t-2 w-11/12 border-[#E4E4E4]"></div>
+      <div className="flex justify-center items-center  my-5 p">
         Copyright © 2022 Avi Yansah
       </div>
     </>

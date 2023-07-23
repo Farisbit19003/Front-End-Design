@@ -1,29 +1,22 @@
 import React from "react";
-import Cards from "./Cards";
 import { Aside } from "./Aside";
+
 
 const Help = () => {
   return (
     <>
-      <div className=" left-[82px] absolute">
-        <div className=" h-[867px] relative">
-          <div className=" border-8 flex border-[#ff007a] rounded-full h-[120px] left-[1040px] absolute top-[711px] w-[120px]"></div>
-          <div className=" h-[154px]  left-[43px] absolute top-[644px] w-[405px]">
-            <img
-              className=" h-[154px] left-[209px] absolute top-0 w-[196px]"
-              alt="Dot"
-              src="../images/Dot.svg"
-            />
-            <img
-              className=" h-[154px] left-0 absolute top-0 w-[196px]"
-              alt="Dot"
-              src="../public/images/Dot.svg"
-            />
-          </div>
-
+      <div className=" ml-[5.125rem] mt-36 ">
+        <div className=" ">
           <Aside />
 
-          <Cards />
+          <div className="justify-between flex flex-row -mt-10  ">
+            <div className="flex flex-row ">
+        
+              <img className="lg:h-full flex flex-shrink lg:w-full w-40 h-40" alt="Dot" src="../images/Dot.svg" />
+              <img className="lg:h-full flex  lg:w-full w-40 h-40" alt="Dot" src="../images/Dot.svg" />
+            </div>
+            <div className=" border-8 mr-40 border-[#ff007a] rounded-full h-32 w-32 "></div>
+          </div>
         </div>
       </div>
     </>
