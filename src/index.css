@@ -13,7 +13,7 @@
 }
 
 .h1 {
-    @apply text-[#000] font-ad justify-center font-semibold lg:text-[2.5rem] lg:leading-[3.125rem] text-2xl;
+    @apply text-[#000] font-ad justify-center font-semibold lg:text-[2.5rem] lg:leading-[3.125rem] text-xl;
   }
 
   .p{
