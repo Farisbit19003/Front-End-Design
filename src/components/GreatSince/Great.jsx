@@ -22,12 +22,11 @@ const Great = () => {
 
         <div className="flex flex-col">
           <div className="bg-[#eff0ff] absolute -z-10 rounded-br-[6.25rem] h-[11.125rem]   w-[11.125rem]" />
-          <div className="flex flex-col lg:-ml-28 w-fit p-2 mt-10 relative justify-end items-center">
-            {" "}
+          <div className="flex flex-col lg:-ml-28 w-fit p-2 mt-10 gap-5 justify-end items-center">
             <h1 className="h1 lg:w-7/12 w-full">
               Great Digital Product Agency since 2016
             </h1>
-            <p className="p lg:w-7/12 w-full">
+            <p className="p lg:w-7/12  w-full">
               Our Business Plan is a written document describing a company&#39;s
               core business activites, Objectives, and how it plans to achieve
               its goals. Our goal is to provide our client high quality Product

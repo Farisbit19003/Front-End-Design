@@ -8,7 +8,7 @@ const Hero = () => {
     <>
       <div className="flex ml-3 lg:ml-[5.125rem] lg:flex-row flex-col justify-center ">
         <div className="flex flex-col justify-center gap-3 ">
-        <div className="flex flex-col lg:p-3 border mr-6 lg:w-7/12 ">
+        <div className="flex flex-col lg:p-3 mr-6 lg:w-7/12 ">
           <h1 className="h1 whitespace-nowrap">
             A Digital Product Agency
           </h1>
