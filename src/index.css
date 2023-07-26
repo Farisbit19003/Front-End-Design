@@ -3,19 +3,30 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(../fonts/FontsFree-Net-FontsFree-Net-Proxima-Nova-1.ttf);
+  font-family: 'Proxima Nova';
+  src: url(../fonts/FontsFree-Net-FontsFree-Net-Proxima-Nova-1.ttf);
 }
 
 @font-face {
-    font-family: 'Averta Demo PE Cutted Demo';
-    src: url(../fonts/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
+  font-family: 'Averta Demo PE Cutted Demo';
+  src: url(../fonts/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
 }
 
 .h1 {
-    @apply text-[#000] font-ad justify-center font-semibold lg:text-[2.5rem] lg:leading-[3.125rem] text-xl;
-  }
+  @apply text-[#000] font-ad justify-center font-semibold lg:text-[2.5rem] lg:leading-[3.125rem] text-xl;
+}
 
-  .p{
-    @apply text-[#565656] mt-4 font-ad
-  }
+.p {
+  @apply text-[#565656] mt-4 font-ad
+}
+
+.circle-container {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

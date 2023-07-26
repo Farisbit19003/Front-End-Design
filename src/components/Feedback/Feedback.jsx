@@ -7,9 +7,10 @@ const Feedback = () => {
   return (
    <>
    <div className='flex lg:flex-row  justify-between flex-col gap-2'>
-   <Fright/>
-   <FCenter/>
    <Fleft/>
+   
+   <FCenter/>
+   <Fright/>
    </div>
    </>
 
