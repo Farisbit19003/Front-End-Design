@@ -7,6 +7,7 @@ import Help from "./components/Help/Help";
 import Hero from "./components/Hero/Hero";
 import OurClient from "./components/OurClient/OurClient";
 import Subscribe from "./components/Subs/Subscribe";
+import Scroll from "./components/common/Scroll";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Feedback />
         <Subscribe />
         <Footer />
+        <Scroll/>
       </div>
     </>
   );
